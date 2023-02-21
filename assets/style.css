@@ -1,0 +1,65 @@
+:root{
+    --border: rgb(77, 77, 236);
+
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(36, 35, 35);
+    color: white;
+}
+
+.home{
+    margin-top: 30px;
+}
+
+.hello{
+    font-size: 35px;
+    color: whitesmoke;
+    padding: 50px 0px 50px 0px;
+}
+
+#cole{
+    width: 270px;
+    border-radius: 150px;
+    border: solid var(--border) 12px;
+    
+}
+
+.aboutMe{
+    background-color: var(--border);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    padding-top:80px;
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+}
+
+.hide{
+    display: none;
+}
+
+.row{
+    justify-content: center;
+}
+
+.resume{
+    font-size: 25px;
+}
+
+#mePic{
+    width: 400px;
+    border-radius: 10px;
+}
+
+.meTitle{
+    margin: 20px 0px 20px 0px;
+    font-size: 45px;
+}
